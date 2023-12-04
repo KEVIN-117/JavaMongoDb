@@ -1,0 +1,25 @@
+use("tech-store")
+
+// Path: src/tech-store/query.mongodb
+db.user.find()
+
+// db.user.insertMany([
+//   {
+//     name: "John Doe",
+//     email: "alguen@gmail.com",
+//     category: "admin",
+//     tags: ["developer", "programmer"],
+//     age: 30,
+//     status: "active",
+//     date: Date()
+//   },
+//   {
+//     name: "John Dori",
+//     email: "dori@gmail.com",
+//     category: "admin",
+//     tags: ["developer", "programmer"],
+//     age: 30,
+//     status: "active",
+//     date: Date()
+//   }
+// ])
